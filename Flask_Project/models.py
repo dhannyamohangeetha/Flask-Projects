@@ -15,7 +15,7 @@ def init_db():
     db.session.add(t)
     db.session.commit()
 
-    # create a another test title
+    # create  another test title
     t = Task(title="First Title", date=datetime.utcnow())
     db.session.add(t)
     db.session.commit()
